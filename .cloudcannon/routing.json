@@ -8,6 +8,19 @@
                     "value": "application/wasm"
                 }
             ]
+        },
+        {
+            "match": ".*",
+            "headers": [
+                {
+                    "name": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "name": "Access-Control-Allow-Methods",
+                    "value": "GET, OPTIONS"
+                }
+            ]
         }
     ]
 }
