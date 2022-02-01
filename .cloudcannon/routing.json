@@ -1,0 +1,13 @@
+{
+    "headers": [
+        {
+            "match": ".*\\.wasm",
+            "headers": [
+                {
+                    "name": "content-type",
+                    "value": "application/wasm"
+                }
+            ]
+        }
+    ]
+}
